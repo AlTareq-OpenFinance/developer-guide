@@ -1,0 +1,41 @@
+:root {
+  --vp-home-hero-name-color:  rgba(48, 92, 116, 1);
+  --vp-button-brand-bg: rgba(48, 92, 116, 1);
+  --vp-c-brand-1: rgba(48, 92, 116, 1);
+}
+
+.dark {
+  --vp-c-brand-1: rgba(200, 220, 230, 1);
+}
+
+.VPNavBarTitle .VPImage {
+  max-width: 100px; /* Set your preferred width */
+  /* margin-left: auto; */
+  margin-right: auto;
+  height: auto;
+}
+
+.VPHome .VPHomeHero .name {
+  color: transparent;
+  -webkit-text-fill-color: transparent
+}
+
+
+.VPHome .VPHomeHero .tagline {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
+.VPFeatures h2 {
+ color: rgba(48, 92, 116, 1);
+}
+
+.dark .VPFeatures h2 {
+  color: rgba(200, 220, 230, 1); /* Dark mode color */
+}
+
+
+.VPSidebarItem .level-2 {
+  font-size: 0.25rem;
+}
