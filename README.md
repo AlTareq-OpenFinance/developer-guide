@@ -1,15 +1,15 @@
-# VitePress Blog Starter
+# AlTareq Developer Guide
 
-Starter Project for VitePress (1.5.x) with Blog Sample included.
-Searched for some VitePress Blog demo code without success - decided to make a sample project by my own.
-Hopefully it will be usefull for someone else ...
+Welcome to the **AlTareq Developer Guide** — a technical resource for **Third-Party Providers (TPPs)** building applications and services within the UAE's Open Finance ecosystem.
 
-## Features
 
-* [UnoCSS](https://github.com/unocss/unocss) for Styling
-* Blog Demo with Posts and Authors
-* Blog functions by Composables
-* Local Search by vitepress
+## 🛠 Get Started
+
+Clone this repo:
+```shell
+https://github.com/AlTareq-OpenFinance/developer-guide.git
+cd developer-guide
+```
 
 ## Useage with pnpm
 
