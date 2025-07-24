@@ -19,7 +19,7 @@ You can download and import the full Postman collection here:
 In order to get the most from this postman file it is important you understand the following:
 
 - **Model Bank** - If you're using this Postman collection for the first time, ensure you are building with the Model Bank as your LFI.
-To learn how to configure environment variables and authenticate using one of the pre-configured test users, please refer to the [Model Bank documentation](../../model-bank/).
+To learn how to configure environment variables and authenticate using one of the pre-configured test users, please refer to the [Model Bank documentation](./../model-bank/).
 
 
 - **API Discovery** - Several requests use environment variables, which differ depending on the LFI you're interacting with. At a minimum, you will need to obtain the following values via API Discovery:

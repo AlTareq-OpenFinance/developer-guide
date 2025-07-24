@@ -10,7 +10,7 @@ next:
 
 # O3 Utils
 
-Throughout the [Postman collections](/deve) provided, you will find several requests labeled "O3 Utils." These endpoints are designed to assist with early-stage implementation by performing tasks such as signing a JWT with your private key.
+Throughout the [Postman](../developer-tools/postman) collections, you will find several requests labeled "O3 Utils." These endpoints are designed to assist with early-stage implementation by performing tasks such as signing a JWT with your private key.
 
 <img src="/images/demo/o3-spotlight-postman.png" alt="O3 Utils Postman" width="300" />
 
