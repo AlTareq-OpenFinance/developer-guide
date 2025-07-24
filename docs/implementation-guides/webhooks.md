@@ -45,6 +45,15 @@ When you receive a webhook, it will arrive as a *JWE (JSON Web Encryption)*. Thi
 
 The encryption process that happens here is the same as the encryption of PII done by the TPP using the LFI's encryption key before initiating a payment consent request.
 
+::: warning Required Response
+After successfully receiving and processing the webhook, your endpoint **must respond with HTTP `202 Accepted`**.
+
+This status code indicates that your server has accepted the event for processing. Failing to respond with a `202` may result in:
+- The webhook being marked as undelivered
+- Retry webhook attempts
+:::
+
+
 
 ## Decrypting the Webhook JWE
 

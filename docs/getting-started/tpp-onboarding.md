@@ -8,8 +8,8 @@ prev:
   link: '/getting-started/api-discovery/'
 
 next:
-  text: 'Access Tokens'
-  link: '/getting-started/access-tokens/'
+  text: 'Authentication'
+  link: '/getting-started/authentication/'
 ---
 
 

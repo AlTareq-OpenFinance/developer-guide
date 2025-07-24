@@ -210,7 +210,7 @@ function sidebarGuide() {
       items: [
         { text: 'Constructing auth_details', link: '/implementation-guides/authorization-details/' },
         {
-          text: 'O3 Utils',
+          text: 'O3 Utils', link: '/implementation-guides/o3-utils/',
           collapsed: true,
           items: [
             { text: 'Preparing Client Assertion', link: '/implementation-guides/client-assertion/' },
